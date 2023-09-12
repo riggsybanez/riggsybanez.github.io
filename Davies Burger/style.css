@@ -63,6 +63,7 @@ body {
     line-height: 40px;
     width: 68%;
     margin: 0px auto;
+    height: 50px;
   }
   
   /* Content Body */
@@ -117,6 +118,7 @@ body {
     width: 200px;
     padding: 10px 20px;
     margin-bottom: 3px;
+    margin: auto 3px;
   }
   
   .nutrition .category {
