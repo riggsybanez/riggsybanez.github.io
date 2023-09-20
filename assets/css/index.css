@@ -56,6 +56,11 @@ body{
     transform: translateY(-50%);
     text-align: center;
     color: #f7f7f9;
+    padding: 728px 0;
+    
+    
+    
+    
     
 
 }
@@ -83,7 +88,14 @@ body{
     margin-bottom: 30px;
     text-align: center;
 }
-a, a:hover, a:visited, a:active {
+.activities td {
+    text-align: center;
+    width: 10%;
+}
+a, a:visited, a:active {
     color: inherit;
     text-decoration: none;
    }
+a:hover {
+    
+}
