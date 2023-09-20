@@ -70,7 +70,7 @@ body{
     max-width: 100%;
     height: 30%;
     margin: 0px auto;
-    padding: 5px;
+    padding: 100px;
     position: relative;
     background-color: #060606; 
     color: #b8b8b8;
@@ -84,16 +84,47 @@ body{
 .activities td {
     text-align: center;
     width: 1%;
+    height: 100px;
 }
 .aboutme {
     max-width: 100%;
+    height: 200px;
     margin: 100px auto;
-    padding: 5px;
+    padding: 10px;
     position: relative;
     top: 300px;
-    background-color: #fff;
-    color: #f2f2f2;
-    font-size: 12px;
+    background-color: #4b4b4b;
+    color: #fff;
+    font-family: 'Lexend Exa', sans-serif;
+}
+.pfp {
+    border-radius: 50%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.aboutme h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: italic;
+}
+.aboutme table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.aboutme td {
+    width: 50%;
+    text-align: center;
+}
+.aboutme td p {
+    text-align: center;
+    font-size: 15px;
+    
+}
+.ametext {
+    margin-left: 170px;
+    
 }
 a, a:visited, a:active {
     color: inherit;
