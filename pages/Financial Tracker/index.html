@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Tracker</title>
+    <link href="/pages/Financial Tracker/style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@700&display=swap');
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div id="headerbox" class="item">
+            <div class="welcome">
+                <div class="item4" id="pfp" >
+                    <img src="/assets/images/pfpfp.png">
+                </div>
+                <div class="welcometxt" id="user" >
+                    <h1>Welcome back, User!</h1>
+                </div>
+            </div>
+        </div>
+        <div id="balance" class="item">
+            <section class="innercont">
+                <div id="balanceheading"><h1>CURRENT BALANCE</h1></div>
+                <div class="item2" id="balancebox">
+                    <div class="bbsubgrid">
+                        <div class="bitem" id="currbal">$ 3,812.00</div>
+                        <div class="bitem" id="monlim">Monthly Limit</div> <div class="bitem" id="monlimv">$ 3,000.00</div>
+                        <div class="bitem" id="totexp">Total Expenses</div> <div class="bitem" id="totexpv">$ 1,188.00</div>
+                        <div class="bitem" id="estinc">Est. Income</div> <div class="bitem" id="estincv">$ 5,000.00</div>
+                        <div class="bitem" id="updates">UPDATES</div>
+                        <div class="bitem" id="add1">Add Income</div> <div class="bitem" id="add1v">+ $ 3,000.00</div>
+                        <div class="bitem" id="add2">Add Income</div> <div class="bitem" id="add2v">+ $ 2,000.00</div>
+                        <div class="bitem" id="exp1">Add Expense</div> <div class="bitem" id="exp1v">- $ 1,188.00</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="income" class="item">
+            <section class="innercont">
+                <div class="item3">
+                    <div id="incomehead"><button><h1>ADD INCOME</h1></button></div>
+                    <div class="input">
+                        <div class="item6"id="amount1"><h1>Amount:</h1></div>
+                        <div class="item6"id="categ"><h1>Category:</h1></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="expense" class="item">
+            <section class="innercont">
+                <div class="item3">
+                    <div id="expensehead"><button><h1>ADD EXPENSE</h1></button></div>
+                    <div class="input">
+                        <div class="item6" id="amount2"><h1>Amount:</h1></div>
+                        <div class="item6" id="categ"><h1>Category:</h1></div>
+                        <div class="item6" id="desc"><h1>Description:</h1></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="transactions" class="item">
+            <section class="innercont">
+                <div id="transacthead"><h1>TRANSACTION HISTORY</h1></div>
+                <div class="item2" id="transactbox">
+                    <div class="thsubgrid1">
+                        <div class="thitem" id="filterh">Filter by</div>
+                        <div class="thitem" id="filter1">Date</div>
+                        <div class="thitem" id="filter2">Type</div>
+                        <div class="thitem" id="filter3">Category</div>
+                    </div>
+                    <div class="thsubgrid2">
+                        <div class="thitem" id="type1">Income</div><div class="thitem" id="cat1">Salary</div><div class="thitem" id="amo1">$ 2,000.00</div><div class="thitem" id="date1">9/05</div> 
+                        <div class="thitem" id="type2">Income</div><div class="thitem" id="cat2">Salary</div><div class="thitem" id="amo2">$ 3,000.00</div><div class="thitem" id="date2">9/06</div> 
+                        <div class="thitem" id="type3">Expense</div><div class="thitem" id="cat3">Food</div><div class="thitem" id="amo3">$ 1,188.00</div><div class="thitem" id="date3">9/08</div> 
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="footerbox" class="item">
+            <div class="footer">
+                <div class="ftitem" id="acc"><a href="">Account</a></div>
+                <div class="ftitem" id="wallet"><a href="">Wallet</a></div>
+                <div class="ftitem" id="analy"><a href="">Analytics</a></div>
+                <div class="ftitem" id="sign"><a href="">Sign out</a></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
